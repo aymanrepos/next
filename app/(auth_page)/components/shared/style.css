@@ -1,0 +1,9 @@
+
+.serverHover {
+    border-radius : 50%;
+    transition : 0.4s all;
+}
+
+.serverHover:hover, .serverHover.active {
+    border-radius : 11px;
+}

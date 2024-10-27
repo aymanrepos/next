@@ -1,0 +1,26 @@
+.blur-home{
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+    -moz-filter: blur(100px);
+    -o-filter: blur(100px);
+    -ms-filter: blur(100px);
+
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 50%;
+    height: 400px;
+}
+
+.my-blur{
+    filter: blur(100px);
+    -webkit-filter: blur(120px);
+    -moz-filter: blur(100px);
+    -o-filter: blur(100px);
+    -ms-filter: blur(100px);
+
+    position: absolute;
+    
+}

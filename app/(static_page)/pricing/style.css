@@ -1,0 +1,77 @@
+.tg{
+    -webkit-text-fill-color: transparent;
+}
+
+
+.loggerparent:hover .logger{
+    opacity: 1;
+}
+.logger{
+    background-image: url('/bot/logger.jpg');
+    background-size: cover; 
+    opacity: 0;
+    background-position: center;
+}
+
+.width-animation{
+    animation: lump 1s linear infinite;
+    width: 100%;
+}
+
+@keyframes lump {
+    0% {
+        width: 100%;
+    }
+    50%{
+        width: 110%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+.icon {
+    position: absolute;
+    top: 10px; /* Adjust the position as needed */
+    left: 10px; /* Adjust the position as needed */
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    background: linear-gradient(to bottom right, yellow, transparent);
+    border-radius: 50%; /* Make it circular or any desired shape */
+    mix-blend-mode: multiply; /* This will blend the icon with the background */
+}
+
+
+.bgchat{
+    background-image: url(/bgchat.webp);
+    background-size: cover;
+    background-position: center;
+    opacity: .6;
+}
+
+.tr::after,
+.tr::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    left: 0;
+    z-index: 10;
+}
+
+.sectiongold::after{
+    background: linear-gradient(to top,transparent 39%, #0D0F10);
+    top: 0px;
+}
+.sectiongold::before{
+    background: linear-gradient(to bottom,transparent 39%, #0D0F10);
+    bottom: 0px;
+}
+.sectionye::after{
+    background: linear-gradient(to top,transparent 39%, #9f6201);
+    top: 0px;
+}
+.sectionye::before{
+    background: linear-gradient(to bottom,transparent 39%, #9f6201);
+}

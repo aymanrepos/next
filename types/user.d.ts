@@ -1,0 +1,1 @@
+type newSession = Session & {accessToken : string}
